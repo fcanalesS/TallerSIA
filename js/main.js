@@ -49,3 +49,19 @@ function cocina_off() {
         })
     })
 }
+
+function sec_on() {
+    $(document).ready(function () {
+        $("#sec_on").click(function () {
+            $("#casa").html('<img src="images/casa_cocina.gif" alt="">')
+        })
+    })
+}
+
+function sec_off() {
+    $(document).ready(function () {
+        $("#sec_off").click(function () {
+            $("#casa").html('<img src="images/casa.gif" alt="">')
+        })
+    })
+}
